@@ -1,5 +1,1 @@
-/**
-* Initialization
-*/
-angular
-  .module('ngUiAnimate',[])
+angular.module("ngUiAnimate",['ngUiAnimate.fly', 'ngUiAnimate.util'])

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <title>ng-ui-animate</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel='stylesheet' href='dist/ng-ui-animate.css'>
+    <link rel='stylesheet' href='demo/css/app.css'>
+
+    <style type="text/css">
+        /**
+         * Hide when Angular is not yet loaded and initialized
+         */
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+          display: none !important;
+        }
+    </style>
+
+  </head>
+
+  <body ng-app="demo" layout="row"  ng-cloak ng-controller="DemoCtrl as dctrl" >
+    <div>
+      <div fly-in duration="3000" direction="bottom"></div>
+    </div>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="dist/ng-ui-animate.js"></script>
+    <script src="demo/src/app.js"></script>
+  </body>
+</html>
