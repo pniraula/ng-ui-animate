@@ -1,0 +1,5 @@
+/**
+* Initialization
+*/
+angular
+  .module('ngUiAnimate',[])
