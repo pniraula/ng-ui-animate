@@ -25,11 +25,11 @@
     "test",
     "tests",
     "gulpfile.js",
-    'sass',
-    'demo',
-    '.git',
-    'src',
-    'index.html',
-    '.gitignore'
+    "sass",
+    "demo",
+    ".git",
+    "src",
+    "index.html",
+    ".gitignore"
   ]
 }
