@@ -1,0 +1,21 @@
+{
+  "author": "Prabesh Niraula",
+  "name": "ng-ui-animate",
+  "description": "Animation for AngularJS Apps",
+  "version": "0.1.1",
+  "repository": {
+    "url": ""
+  },
+  "main": "./lib/ng-ui-animate",
+  "keywords": [
+    "AngularJS",
+    "Animation"
+  ],
+  "bin": {
+    "ng-ui-animate": "./bin/ng-ui-animate"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
