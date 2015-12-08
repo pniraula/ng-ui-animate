@@ -5,6 +5,7 @@
   "homepage": "https://github.com/pniraula/ng-ui-animate",
   "license": "MIT",
   "private": false,
+  "main": "./dist/ng-ui-animate.js",
   "dependencies": {
   },
   "devDependencies": {
@@ -12,5 +13,23 @@
     "angular-aria": "^1.4.6",
     "angular-mocks": "~1.4.8",
     "angular-scenario": "~1.4.8"
-  }
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "component.json",
+    "package.json",
+    "lib",
+    "config",
+    "test",
+    "tests",
+    "gulpfile.js",
+    'sass',
+    'demo',
+    '.git',
+    'src',
+    'index.html',
+    '.gitignore'
+  ]
 }
